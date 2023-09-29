@@ -1,0 +1,6 @@
+git clone ---> makes a exact copy of repository
+git add ---> add a file to the repository
+git commit -m "description of changes" ---> to commit changes made to file
+git status ---> tells what is currently happening inside the repository
+git push ---> to push the changes done in local repository to gitHub
+ 
