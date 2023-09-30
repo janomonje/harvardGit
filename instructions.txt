@@ -39,7 +39,7 @@ user-name.github.io ---> this is the conventional name. If another name is given
 *                                                                                       *    
 *    Now anyone can access this website through the internet                            *    
 *****************************************************************************************
->>>>>>> fbbe103b7bf825a6fa0525f3e866bd732b454e27
+
 
 
 
