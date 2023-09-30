@@ -1,4 +1,4 @@
-git clone  ---> makes a exact copy of repository
+git clone link-of-the-repository ---> makes a exact copy of repository
 
 git add name-of-file ---> add a file to the repository
 git add . ---> add all new files to the repository
@@ -7,10 +7,39 @@ git commit -m "description of changes" ---> to commit changes made to file
 git commit -am "description of changes" ---> to commit all the files that have been changed
 
 git status ---> tells what is currently happening inside the repository
-git push ---> to push the changes done in local repository to gitHub 
+git log ---> shows all changes made to the code
+
+git push ---> to push the changes done in local repository to gitHub
+ 
 git pull  ---> to download from repository to local computer most updated version
 
-git log ---> shows all changes made to the code
+git reset --hard <commit hash> ---> will take the current state of the repository and reverse it to an older version of the repository
+git reset --hard origin/master ---> it will reset the local repository to whatever version exists in the master
+
+***Branching***
+To work in different parts of the repository at the same time
+
+git branch ---> to see what branch we are currently in
+git checkout name-of-branch ---> to move to a different branch
+git checkout -b name-of-new-branch ---> to create and move to new created branch
+git merge ---> to merge changes from other branch to branch we are in
+
+***Forking***
+To make a copy of a repository and work with it. To add changes to the original a pull request must be
+submitted to the owner of the repository.
+
+
+***GitHub Pages***
+--Create a repository with the following name--
+
+user-name.github.io ---> this is the conventional name. If another name is given gitHub pages must be turn on manually
+
+*****************************************************************************************                                                                                       *
+*    After clone the repository, add the files to the repository, and push them.        *    
+*                                                                                       *    
+*    Now anyone can access this website through the internet                            *    
+*****************************************************************************************
+>>>>>>> fbbe103b7bf825a6fa0525f3e866bd732b454e27
 
 
 
