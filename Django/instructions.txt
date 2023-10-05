@@ -1,0 +1,8 @@
+Installing django: sudo apt install python3-django
+
+Creating django project: sudo django-admin startproject name-of-project
+
+To run django app: sudo python3 manage.py runserver
+
+To create django app:  sudo python3 manage.py startapp
+
